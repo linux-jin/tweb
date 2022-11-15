@@ -102,7 +102,7 @@ export class DcConfigurator {
       const suffix = getTelegramConnectionSuffix(connectionType);
       const subdomain = this.sslSubdomains[dcId - 1] + suffix;
       const path = Modes.test ? 'apiw_test1' : 'apiw1';
-      chosenServer = 'https://mirror-tga.666986.xyz/' + subdomain + '/' + path;
+      chosenServer = 'https://mirror-tk-api.mistyhill.ml/' + subdomain + '/' + path;
     } else {
       for(const dcOption of this.dcOptions) {
         if(dcOption.id === dcId) {
